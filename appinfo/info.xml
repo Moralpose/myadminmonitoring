@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>myadminmonitoring</id>
+    <name>My Admin Monitoring</name>
+    <summary>MyAdminMonitoring Summary</summary>
+    <description><![CDATA[Creates activities (visible to any administrator) for Apps activation/deactivation and adding new users by other Administrators]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="wnd@xiller.com" >Njia Ndzebe Wilfried Junior</author>
+    <namespace>MyAdminMonitoring</namespace>
+    <category>monitoring</category>
+    <bugs>http://localhost</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>My Admin Monitoring</name>
+            <route>myadminmonitoring.page.index</route>
+        </navigation>
+    </navigations>
+</info>

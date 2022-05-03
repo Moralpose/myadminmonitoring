@@ -1,0 +1,15 @@
+{
+    "name": "My Admin Monitoring",
+    "description": "MyAdminMonitoring Summary",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Njia Ndzebe Wilfried Junior"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
