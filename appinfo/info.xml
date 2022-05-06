@@ -5,10 +5,13 @@
     <name>My Admin Monitoring</name>
     <summary>MyAdminMonitoring Summary</summary>
     <description><![CDATA[Creates activities (visible to any administrator) for Apps activation/deactivation and adding new users by other Administrators]]></description>
-    <version>0.0.1</version>
+    <version>0.0.4</version>
     <licence>agpl</licence>
     <author mail="wnd@xiller.com" >Njia Ndzebe Wilfried Junior</author>
     <namespace>MyAdminMonitoring</namespace>
+      <types>
+        <logging/>
+    </types>
     <category>monitoring</category>
     <bugs>http://localhost</bugs>
     <dependencies>
