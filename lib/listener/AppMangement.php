@@ -59,7 +59,7 @@ class AppManagement {
 		$mailer = \OC::$server->getMailer();
 		$message = $this->mailer->createMessage();
 		$message->setFrom(['wnd@xiller.com' => 'Nextcloud Notifier']);
-		$message->setTo(['njiandzebewilfriedjunior.com' => 'Recipient']);
+		$message->setTo(['njiandzebewilfriedjunior@gmail.com' => 'Recipient']);
 		$message->useTemplate($mailTemplate);
 
 		$this->mailer->send($message);
